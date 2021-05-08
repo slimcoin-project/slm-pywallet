@@ -10,7 +10,7 @@ Licenses: See pywallet.py. Pywallet code was released into the public domain.
 
 **Usage**
 
-`python2 pywallet.py [options]
+```python2 pywallet.py [options]
 
 Options:
   --version            show program's version number and exit
@@ -19,13 +19,14 @@ Options:
   --importprivkey=KEY  import private key from vanitygen
   --datadir=DATADIR    wallet directory (defaults to bitcoin default)
   --testnet            use testnet subdirectory and address type
-  --password=PASSWORD  password for the encrypted wallet`
+  --password=PASSWORD  password for the encrypted wallet
 
 Dependencies:
   bsddb (python 2.7.2 msi includes bsddb by default)
 
 Links:
   http://www.python.org/ftp/python/2.7.2/python-2.7.2.msi
+```
 
 ## cryptoidlookup.py
 
@@ -36,9 +37,11 @@ Requires Python3.
 
 Usage:
 
-`python3 cryptoidlookup.py [options] file
+```
+python3 cryptoidlookup.py [options] file
 
 Options:
     -v  verbose mode (prints transactions and addresses without transactions)
     -s  start (allows to start at a certain position of the address list (e.g. if the block explorer stops responding)
-`
+
+```
