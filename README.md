@@ -32,7 +32,7 @@ Links:
 
 Allows to look up addresses at the Cryptoid explorer. Prints out addresses for which transactions are found.
 
-Uses some code snippets from pypeerassets. License: MIT
+Uses some code snippets from pypeerassets. License: BSD 3-clause (see LICENSE file)
 Requires Python3.
 
 Usage:
