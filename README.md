@@ -42,7 +42,7 @@ Usage:
 python3 cryptoidlookup.py [options] file
 
 Options:
-    -v  verbose mode (prints transactions and addresses without transactions)
-    -s  start (allows to start at a certain position of the address list (e.g. if the block explorer stops responding)
+    -v  Verbose mode (prints transactions and addresses without transactions)
+    -s  start_position Allows to start at a certain position of the address list (e.g. if the block explorer stops responding)
 
 ```
