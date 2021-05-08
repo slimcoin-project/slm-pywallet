@@ -7,7 +7,11 @@ from http.client import HTTPResponse
    Requires python 3.
    Without options it just print out addresses it finds transactions for.
 
-   Uses some code snippets of pypeerassets (MIT License)
+   Uses some code snippets of pypeerassets (BSD 3-Clause License)
+   Source: https://github.com/PeerAssets/pypeerassets
+   (c) PeerAssets project 2019
+   
+   
    Options:
    -v - Verbose (shows transactions)"""
 
